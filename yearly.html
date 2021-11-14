@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <title>Weekly Donations</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-2 fixed-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="/bootstrap-icons-1.5.0/book-half.svg" alt="" style="height: auto; width: 28px;"></a>
+            <button class="navbar-toggler"  data-toggle="collapse" data-target="#mynav" type="button" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item m "><a href="index.html" class="nav-link text-dark bold">Why Course-X</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link text-dark bold">Contact Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-dark bold dropdown-toggle" data-toggle="dropdown">Donate</a>
+                        <div class="dropdown-menu">
+                            <a href="weekly.html" class="dropdown-item">Weekly 10$</a>
+                            <a href="monthly.html" class="dropdown-item"> Monthly 35$</a>
+                            <a href="yearly.html" class="dropdown-item"> Yearly 300$</a>
+                        </div></li>
+                    <!-- <li class="nav-item"><a href="about.html" class="nav-link text-dark bold dropdown-toggle">About Us</a></li> -->
+                </ul>
+               <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item"><a href="login.html" class="nav-link text-dark bold">Sign in</a></li>
+                    <li class="nav-item"><a href="register.html" class="nav-link text-white ml-2 bold get-started-btn ">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="jumbotron bg-balloon">
+            <h2 class="text-center p-2 mt-5">Weekly Donations</h2>
+    </div>
+    <div class="container">
+       <div class="row">
+           <div class="col-md-3"></div>
+           <div class="col-md-6 shadow p-5">
+               <p><span class="bold mr-7">Payment</span><img src="/Icon/iconmonstr-payment-3.svg" alt="" srcset=""> <img src="/Icon/iconmonstr-payment-5.svg" alt=""> <img src="/Icon/iconmonstr-paypal-8.svg" alt=""></p>
+               <p class="bold mr-3 text-center">You will be charged <span class="text-danger ml-2">$300</span></p>
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control border-zero p-4" placeholder="Card holder name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control border-zero p-4" placeholder="Card holder number">
+                    </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4"> <input type="text" class="form-control border-zero p-4" placeholder="Expiry Date"></div>
+                                <div class="col-md-4 space"> <input type="password" class="form-control border-zero p-4" placeholder="CVV"></div>
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" class="border-zero" name="" id=""><small class=" ml-2">Save Card Details</small>
+                        <button class="btn border-zero btn-block btn-primary">Proceed</button>
+                    </div>
+                </form>
+            </div>
+           <div class="col-md-3"></div>
+       </div>
+        
+    </div>
+     <!--Footer-->  
+ <footer class="footer mt-5">
+    <div class="footercontainer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Secta Foundation</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">FeedBack</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Category</h4>
+                <ul>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
